@@ -3,6 +3,8 @@
 ### 3. What is event loop?
 ### 4. Differentiate between Real DOM and Virtual DOM.
 ### 5. What is JSX?
+JSX stands for JavaScript XML. JSX allows us to write HTML in React. JSX makes it easier to write and add HTML in React
+
 ### 6. What is closures?
 ### 7. What is `useState()` in React?
 ### 8. What are the differences between controlled and uncontrolled components?
