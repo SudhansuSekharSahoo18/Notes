@@ -26,10 +26,10 @@ D: Dependency Inversion Principle (DIP)
 
 > The followings are four main principles of object-oriented programming:
 
-> Abstraction
-> Encapsulation
-> Inheritance
-> Polymorphism
+> 1. Abstraction
+> 2. Encapsulation
+> 3. Inheritance
+> 4. Polymorphism
 
 ### Abstraction: 
 First, identify essential entities and their characteristic from the business requirement for a high-level view.
