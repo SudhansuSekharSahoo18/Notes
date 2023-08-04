@@ -29,14 +29,14 @@ public class A
     {
         Console.WriteLine(a + " + " + b + " = " + a+b);
     }
-}
 
-public static void Main(String []args)
-{
-    A obj = new A();
-    addnum del_obj1 = new addnum(obj.sum);
-    del_obj1(100, 40);
-    // del_obj1.Invoke(100, 40);
+    public static void Main(String []args)
+    {
+        A obj = new A();
+        addnum del_obj1 = new addnum(obj.sum);
+        del_obj1(100, 40);
+        // del_obj1.Invoke(100, 40);
+    }
 }
 ``` 
 
