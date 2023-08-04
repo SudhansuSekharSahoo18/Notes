@@ -1,6 +1,7 @@
 
 ### Join in LINQ ?
 
+```C#
 var list = students.Join(schools, 
             student => student.SchoolId, 
             school => school.Id, 
@@ -9,6 +10,7 @@ var list = students.Join(schools,
                 StudentName = student.Name,
                 school.SchoolName
             });
+```
 
 ### Difference between POST, PUT and PATCH ?
 
