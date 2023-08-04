@@ -1,10 +1,10 @@
 ## Define SOLID principles ?
 
-S: Single Responsibility Principle (SRP)
-O: Open-closed Principle (OCP)
-L: Liskov substitution Principle (LSP)
-I: Interface Segregation Principle (ISP)
-D: Dependency Inversion Principle (DIP)
+> S: Single Responsibility Principle (SRP)
+> O: Open-closed Principle (OCP)
+> L: Liskov substitution Principle (LSP)
+> I: Interface Segregation Principle (ISP)
+> D: Dependency Inversion Principle (DIP)
 
 ### S: Single Responsibility Principle (SRP)
 > Every software module should have only one reason to change
