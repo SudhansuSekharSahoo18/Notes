@@ -69,8 +69,7 @@ public static void Main(String []args)
 }
 }
 ```
-
-> Area is: 26.46
->
-> Perimeter is: 21 
-
+```
+Area is: 26.46
+Perimeter is: 21 
+```
