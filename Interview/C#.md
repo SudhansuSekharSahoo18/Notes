@@ -27,7 +27,7 @@ public class A
             
     public void sum(int a, int b)
     {
-        Console.WriteLine("({0} + {1}) = {2}", a, b, a + b);
+        Console.WriteLine(a + " + " + b + " = " + a+b);
     }
 }
 
