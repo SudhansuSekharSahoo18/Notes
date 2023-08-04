@@ -15,9 +15,11 @@ You can call a function using a select statement | You cannot call a procedure u
 
 ### JOIN 2 table?
 
-> SELECT * FROM Student st
+```SQL
+SELECT * FROM Student st
 JOIN School sc ON st.SchoolId = sc.Id
 WHERE Percentage > 30
+```
 
 ### What is the difference between local table and global table ?
 
