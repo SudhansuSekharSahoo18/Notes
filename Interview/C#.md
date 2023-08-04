@@ -40,5 +40,36 @@ public class A
 }
 ``` 
 
-### 
+### Multicasting of delegates?
+> Multicasting of delegate is an extension of the normal delegate(sometimes termed as Single Cast Delegate). It helps the user to point more than one method in a single call.
+
+```C#
+using System;
+ 
+class rectangle
+{
+public delegate void rectDelegate(double height, double width);
+ 
+    public void area(double height, double width)
+    {
+        Console.WriteLine("Area is: {0}", (width * height));
+    }
+  
+    public void perimeter(double height, double width)
+    {
+        Console.WriteLine("Perimeter is: {0} ", 2 * (width + height));
+    }
+  
+public static void Main(String []args)
+{
+    rectangle rect = new rectangle();
+    rectDelegate rectdele = new rectDelegate(rect.area);
+    rectdele += rect.perimeter;
+    rectdele.Invoke(6.3, 4.2);
+}
+}
+```
+
+> Area is: 26.46
+> Perimeter is: 21 
 
