@@ -1,6 +1,11 @@
 # SQL Interview Questions
 
-### What is index. What are the type of Index ?
+### What is index. What are the type of Index?
+
+### What is the difference between primary key and unique key?
+
+### What is foriegn key ?
+
 
 
 ### What is the difference between function and stored procedure?
