@@ -3,10 +3,11 @@
 ### What is index. What are the type of Index?
 
 ### What is the difference between primary key and unique key?
+> A primary key is a key that uniquely identifies each record in a table but cannot store NULL values. In contrast, a unique key prevents duplicate values in a column and can store NULL values.
+> A table can have multiple unique key but it can have only one primary key.
 
-### What is foriegn key ?
-
-
+### What is foreign key?
+> A `FOREIGN KEY` is a field (or collection of fields) in one table, that refers to the `PRIMARY KEY` in another table.
 
 ### What is the difference between function and stored procedure?
 | Functions |	Procedures
