@@ -29,5 +29,8 @@ WHERE Percentage > 30
 
 ### What is the difference between local table and global table ?
 
+### What is View in SQL?
+> View is the virtual table which doesn't take any memory.
+
 
 
