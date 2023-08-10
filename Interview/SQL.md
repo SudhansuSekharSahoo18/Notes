@@ -2,6 +2,10 @@
 
 ### What is index. What are the type of Index?
 
+### What is cross Join?
+
+### What is the difference between Union and Union All?
+
 ### What is the difference between primary key and unique key?
 > A primary key is a key that uniquely identifies each record in a table but cannot store NULL values. In contrast, a unique key prevents duplicate values in a column and can store NULL values.
 > A table can have multiple unique key but it can have only one primary key.

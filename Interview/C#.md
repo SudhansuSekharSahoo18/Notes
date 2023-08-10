@@ -1,3 +1,7 @@
+### What is the difference between `dynamic` and `var`?
+
+### What is the difference between IEnumerable and IQueryable?
+
 ### Extension method in C# ?
 
 > In C#, the extension method concept allows you to add new methods in the existing class or in the structure without modifying the source code of the original type and you do not require any kind of special permission from the original type and there is no need to re-compile the original type.
@@ -16,19 +20,6 @@ static class StringHelper {
         return str + text;
     }
 }
-```
-
-### Join in LINQ?
-
-```C#
-var list = students.Join(schools, 
-            student => student.SchoolId, 
-            school => school.Id, 
-            (student, school) => new
-            {
-                StudentName = student.Name,
-                school.SchoolName
-            });
 ```
 
 ### Difference between POST, PUT, and PATCH?
@@ -95,6 +86,11 @@ Perimeter is: 21
 
 ### What is Entity Framework?
 
-```
+### Explain garbage collector?
 
-```
+### What is Function overloading and function overriding?
+
+### How to call base class constructor?
+
+### What is reflection ?
+> Reflection is the process of describing the metadata of types, methods and fields in a code. The namespace System.Reflection enables you to obtain data about the loaded assemblies, the elements within them like classes, methods and value types.
