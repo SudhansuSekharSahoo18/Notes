@@ -36,5 +36,10 @@ WHERE Percentage > 30
 ### What is View in SQL?
 > View is the virtual table which doesn't take any memory.
 
+### Types of lock in SQL?
+>
+
+### How to get the inserted id of a table?
+>
 
 
