@@ -25,5 +25,8 @@ var list = students.Join(schools,
  IEnumerable<string> resultSelectMany = employees.SelectMany(emp => emp.Skills);
 ```
 
+### What is the difference between SingleOrDefault() and FirstOrDefault()?
+> In the collection if we are getting multiple search element SingleOrDefault() will `throw the exception` where FirstOrDefault() will return `first` value.
+
 ### Projection in LINQ?
 > Projection refers to the operation of transforming an object into a new form that often consists only of those properties that will be subsequently used. By using projection, you can construct a new type that is built from each object. You can project a property and perform a mathematical function on it. You can also project the original object without changing it.
